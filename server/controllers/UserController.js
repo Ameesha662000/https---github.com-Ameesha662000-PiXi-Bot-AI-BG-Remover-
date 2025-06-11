@@ -317,6 +317,16 @@ const verifyRazorpay = async (req, res) => {
 //     }
 // }
 
+// API Controller function to update all users credit balance
+const updateAllUsersCredits = async (req, res) => {
+    try {
+        const result = await userModel.updateMany({}, { creditBalance: 500 })
+        console.log('Updated users count:', result.modifiedCount)
+        res.json({ success: true, message: "All users credits updated to 500", updatedCount: result.modifiedCount })
+    } catch (error) {
+        console.log(error.message)
+        res.json({ success: false, message: error.message })
+    }
+}
 
-
-export { clerkWebhooks, userCredits, paymentRazorpay, verifyRazorpay }
+export { clerkWebhooks, userCredits, paymentRazorpay, verifyRazorpay, updateAllUsersCredits }
