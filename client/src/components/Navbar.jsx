@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <div className='flex items-center justify-between mx-4 py-3 lg:mx-44 '>
-            <Link to={'/'}><img className='w-32 sm:w-44' src={assets.logo} alt="" /></Link>
+            <Link to={'/'}><img className='w-20 sm:w-25 md:w-30 rounded-full object-cover' src={assets.logo1} alt="" /></Link>
             {isSignedIn
                 ? <div className='flex items-center gap-2 sm:gap-3'>
                     <button onClick={() => navigate('/buy')} className='flex items-center gap-2 bg-blue-100 px-4 sm:px-7 py-1.5 sm:py-2.5 rounded-full hover:scale-105 transition-all duration-700'>

@@ -13,7 +13,7 @@ const Steps = () => {
                     <img className='max-w-9' src={assets.upload_icon} alt="" />
                     <div>
                         <p className='text-xl font-medium'>Upload image</p>
-                        <p className='text-sm text-neutral-500 mt-1'>This is a demo text, will replace it later. <br /> This is a demo..</p>
+                        <p className='text-sm text-neutral-500 mt-1'>Easily upload your image or video to get started. <br/>Our system will automatically extract frames from <br/> your video or accept standalone images for background removal.</p>
                     </div>
                 </div>
 
@@ -21,7 +21,7 @@ const Steps = () => {
                     <img className='max-w-9' src={assets.remove_bg_icon} alt="" />
                     <div>
                         <p className='text-xl font-medium'>Remove background</p>
-                        <p className='text-sm text-neutral-500 mt-1'>This is a demo text, will replace it later. <br /> This is a demo..</p>
+                        <p className='text-sm text-neutral-500 mt-1'>With a single click, remove the background from your<br/> images using advanced AI-powered tools. Clean,<br/> accurate, and ready-to-use results in seconds.</p>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ const Steps = () => {
                     <img className='max-w-9' src={assets.download_icon} alt="" />
                     <div>
                         <p className='text-xl font-medium'>Download image</p>
-                        <p className='text-sm text-neutral-500 mt-1'>This is a demo text, will replace it later. <br /> This is a demo..</p>
+                        <p className='text-sm text-neutral-500 mt-1'>Once processing is complete, preview and download your<br/> final image with the background removed — perfect for <br/> designs, presentations, and more. </p>
                     </div>
                 </div>
 

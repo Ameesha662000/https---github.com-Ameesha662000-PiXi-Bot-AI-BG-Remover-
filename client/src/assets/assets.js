@@ -16,6 +16,8 @@ import profile_img_2 from './profile_img_2.png'
 import credit_icon from './credit_icon.png'
 import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
+// import iimg2 from './iimg2.png'
+import logo1 from './logo1.svg'
 
 export const assets = {
     logo,
@@ -33,7 +35,8 @@ export const assets = {
     upload_btn_icon,
     credit_icon,
     razorpay_logo,
-    stripe_logo
+    stripe_logo,
+    logo1,
 }
 
 export const testimonialsData = [
